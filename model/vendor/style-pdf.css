@@ -1,0 +1,191 @@
+@media print {
+    /* body {
+        background-color: transparent;
+        background-image: url("../assets/img/Marco.jpg") cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size: cover;
+        -o-background-size: cover;
+        min-height: 100%;
+        min-width: 100%;
+        max-height: max-content;
+        max-width: max-content;
+        border: 4px solid black;
+        height: 100%;
+        width: 100%;
+    } */
+
+div.div-img {
+    position: fixed;
+}
+
+div.div-back {
+    background-color: transparent;
+    background-image: url("../assets/img/Marco.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%   100%;
+    min-height: 100%;
+    min-width: 100%;
+    max-height: max-content;
+    max-width: max-content;
+    /* border: 4px solid black; */
+    height: 100%;
+    width: 100%;
+}
+
+div.div-contain-html {
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+div#div-tittle {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-variant: small-caps;
+    font-stretch: condensed;
+    text-align: right;
+    font: bolder;
+    font-size: medium;
+}
+
+h4#adm {
+    text-align: center;
+}
+
+p#txt {
+    text-align: justify;
+}
+
+h5 {
+    text-transform: uppercase;
+}
+
+img#img-logo {
+    width: 90;
+    height: 90;
+    mask-repeat: no-repeat;
+    /* padding-right: 20px; */
+}
+
+img#img-brd {
+    
+    object-fit: fill;
+    width: 90;
+    height: 90;
+    mask-repeat: no-repeat;
+    /* padding-right: 20px; */
+}
+
+td {
+    width: 100%;
+    padding: 0px 20px;
+    font-size: large;
+    text-align: justify;
+}
+
+span#sp-mayus {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+table {
+    position: absolute;
+    text-align: justify;
+    background-color: transparent;
+}
+
+table#prub, td, th, tr {
+    position: absolute;
+    border: 1px solid darkgrey;
+    background-color: transparent;
+    border-radius: 50%;
+}
+
+table#fsl {
+    text-align: justify;
+}
+
+td.td-H {
+    width: 2%;
+    font-size: 700%;
+    text-align: center;
+}
+
+td.td-R {
+    width: 100px;
+    font-size: 550%;
+    text-align: center;
+    white-space: nowrap;
+}
+
+td#td-el {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border: 0px;
+}
+
+td#td-ella {
+    padding-top: 100px;
+    padding-bottom: -10px;
+    border: 0px;    
+}
+
+td#td-justy {
+    text-align: justify;
+    border-color: darkgrey;
+    border-collapse: collapse;
+}
+
+table.tbl-inside {
+    font-size: 600%;
+    width: 100%;
+    text-align: center;
+    border-color: transparent;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+table.tbl-inside-2 {
+    font-size: 100%;
+    width: 100%;
+    text-align: center;
+    border-color: transparent;
+    /* padding-top: 100px;
+    padding-bottom: 100px; */
+}
+
+td#td-right {
+    text-align: right;
+    text-align: justify;
+}
+
+td.td-center {
+    text-align: center;
+}
+
+td.td-tbl {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 2px;
+    padding-left: -12px;
+    border: none;
+    text-align: left;
+}
+
+td#td-sp {
+    font-size: small;
+    padding-left: 6px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 6px;
+}
+
+td.td-right-2 {
+    text-align: right;
+    text-align: justify;
+} }

@@ -1,0 +1,212 @@
+body {
+    font-family: verdana, sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    font-variant: small-caps;
+    font-stretch: condensed;
+}
+
+body#form{
+    background-color: darkgrey;
+}
+
+div.idx#div-img {
+    background-size: auto;
+    padding: 250px;
+    box-sizing: border-box;
+}
+
+div.brd {
+    border-color: darkgrey;
+    text-align: center;
+    background-color: #f2f2f2;
+  }
+
+div form div.fH {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 40px 80px;
+    display: inline-block;
+    vertical-align: text-top;
+    width: 30%;
+}
+
+div.fM {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 40px 80px;
+    display: inline-block;
+    vertical-align: text-top;
+    width: 30%;
+}
+
+div.div-pads {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 40px 80px;
+    display: inline-block;
+    vertical-align: text-top;
+    width: 30%;
+}
+
+div select#tpreg {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px 60px;
+    display: inline-block;
+    vertical-align: text-top;
+    width: 30%;
+}
+
+@media only screen and (min-width: 400px) {
+div#div-img {
+    background-image: url(../assets/img/fondo.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position: center;
+    object-fit: scale-down;
+  }
+}
+
+div.div-list {
+    display: auto;
+    position: fixed;
+    text-align: center;
+    background-color: paleturquoise;
+    padding-left: 10%;
+}
+
+button#btnsub {
+    background-color: #ccc;
+    border-radius: 4px;
+    transition-duration: 0.4s;
+    padding: 14px 25px;
+    border: none;
+    font-variant: small-caps;
+    font-weight: bolder;
+}
+
+button#btnsub:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input.ofcl, select#tpreg {
+    width: 30%;
+    padding: 12px 10px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input#pads {
+    width: 100%;
+    padding: 12px 10px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+::-webkit-input-placeholder { /* Edge */
+    color: #dadada;
+    font-size: 1em;
+    text-align: center;
+  }
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #dadada;
+    font-size: 1em;
+    text-align: center;
+}
+  
+::placeholder {
+    color: #dadada;
+    font-size: 1em;
+    text-align: center;
+}
+
+input[type=date] {
+    appearance: none;
+    color: #1D1D1D;
+    font-family: “Helvetica”, arial, sans-serif;
+    font-size: 18px;
+    border:1px solid #ECF0F1;
+    background:#ECF0F1;
+    padding: 4px;
+    display: inline-block;
+    visibility: visible;
+    width: 170px;
+}
+
+input#curp {
+    text-transform: uppercase;
+}
+
+a#formpar:link {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a#formpar:visited {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a#formpar:hover {
+    color: green;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a#formpar:active {
+    color: purple;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a#btn:link, a:visited {
+    background-color: #ff8077;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 4px;
+}
+  
+a#btn:hover, a:active {
+    background-color: red;
+}
+
+img {
+    width: 100%;
+}
+
+body#idx {
+    background-image: url(/assets/img/fondo.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    margin: 0;
+    align-self: center;
+    height: 100vh;
+}
+
+tr#tr-primero {
+    font-size: large;
+}

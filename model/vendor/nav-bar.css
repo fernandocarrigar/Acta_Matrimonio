@@ -1,0 +1,37 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #045aaa;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white !important;
+    text-align: center;
+    padding: 24px 26px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgb(5, 56, 131);
+  }
+  
+  a.active {
+    background-color: #e36111;
+  }
+
+  li#cncl {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-right: 10px;
+      float: right;
+  }
